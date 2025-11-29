@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  gap: 2rem;
+  /* background-color: rgb(117, 125, 165); */
+
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #fff;
+  font-size: var(--fs-sm);
+  transition: color 0.3s ease;
+}
+
+.nav-links:hover {
+  color: #333;
+}

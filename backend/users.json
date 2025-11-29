@@ -1,0 +1,69 @@
+[
+    {
+        "username": "manish ",
+        "email": "manish@gmail.com",
+        "password": "12345",
+        "contacts": [
+            {
+                "name": "gagan",
+                "mobile": "478451258",
+                "email": "gagan@gmail.com",
+                "address": "govindpuri"
+            },
+            {
+                "name": "herbej",
+                "mobile": "9888975485",
+                "email": "herbej@gmail.com",
+                "address": "gk-2"
+            },
+            {
+                "name": "rajesh",
+                "mobile": "98997414741",
+                "email": "rajesh@gmail.com",
+                "address": "delhi"
+            },
+            {
+                "name": "sujeet",
+                "mobile": "9888974484",
+                "email": "suje@gmail.com",
+                "address": "delhi"
+            }
+        ]
+    },
+    {
+        "username": "abhisek sharma",
+        "email": "abhisek@gmail.com",
+        "password": "ab123",
+        "contacts": [
+            {
+                "name": "manish",
+                "mobile": "465465465",
+                "email": "man@gmail.com",
+                "address": "gk2"
+            },
+            {
+                "name": "karishma",
+                "mobile": "4788484597",
+                "email": "karishma@gmail.com",
+                "address": "tughalkabad"
+            },
+            {
+                "name": "ashish",
+                "mobile": "9885874949",
+                "email": "ashish@gmail.com",
+                "address": "Punjabi bagh"
+            },
+            {
+                "name": "jatin",
+                "mobile": "465654654654",
+                "email": "jatin@gmil.com",
+                "address": "delhi"
+            }
+        ]
+    },
+    {
+        "username": "sumit",
+        "email": "sumit@gmail.com",
+        "password": "smt"
+    }
+]

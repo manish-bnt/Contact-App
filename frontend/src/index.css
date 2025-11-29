@@ -1,0 +1,23 @@
+:root {
+  --fs-sm: clamp(0.8rem, 1vw, 1rem);
+  --fs-md: clamp(1rem, 1.5vw, 1.25rem);
+  --fs-lg: clamp(1.2rem, 2vw, 2rem);
+
+  --space-xs: clamp(0.4rem, 1vw, 0.8rem);
+  --space-sm: clamp(0.8rem, 1.5vw, 1.2rem);
+  --space-md: clamp(1rem, 2vw, 2rem);
+  --space-lg: clamp(2rem, 3vw, 3.5rem);
+
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e12525ab;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

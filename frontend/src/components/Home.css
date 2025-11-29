@@ -1,0 +1,53 @@
+.home-sec>h1 {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.home-sec>p {
+  font-size: var(--fs-md);
+}
+
+.contact-list-wrap {
+  width: 100%;
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  gap: 1.5rem;
+  /* margin-top: 3rem; */
+  /* background-color: pink; */
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:var(--space-sm);
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: 2px 3px 7px rgba(0,0,0,0.3);
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--fs-md);
+}
+
+.contact-action {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.contact-action > button {
+  padding:var(--space-xs) var(--space-sm);
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #3d7df3;
+  font-size: var(--fs-sm);
+  cursor: pointer;
+}
