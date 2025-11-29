@@ -22,7 +22,7 @@ function writeFile(signupObj) {
   }
 }
 router.get('/', (req, res) => {
-    res.send(JSON.stringify({ msg: "server is running" }))
+  res.send(JSON.stringify({ msg: "server is running" }))
 })
 router.post('/signup', (req, res) => {
   let fileRead = readFile() // [] 
@@ -122,6 +122,12 @@ router.delete('/delete-contact', (req, res) => {
   fileRead.splice(loguserIdx, 1, matchedLoguser[0])
   writeFile(fileRead)
   res.send(JSON.stringify({ msg: "Deleted Succesfully", newData: matchedLoguser[0] }))
+})
+
+
+router.get("/all-users", (req, res) => {
+  let fileRead = readFile()
+  res.send(fileRead)
 })
 
 
