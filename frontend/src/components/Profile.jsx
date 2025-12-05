@@ -50,7 +50,7 @@ export default function Profile() {
         }
         <div className="user-profile-info">
           <p><span><i className="fa-solid fa-envelope"></i></span> {user.email}</p>
-          <p><span><i className="fa-solid fa-key"></i></span> {user.password}</p>
+          {/* <p><span><i className="fa-solid fa-key"></i></span> {user.password}</p> */}
         </div>
       </div>
       :
